@@ -40,5 +40,10 @@ cd your-repo
 ```bash
 python filter.py
 ```
+---
 
+## How it works
+- Opens and reads a text file
+- Matches each pattern category found in the text to a specified Regex Pattern
+- Outputs each match based on the category
 
