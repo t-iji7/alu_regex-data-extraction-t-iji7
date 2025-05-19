@@ -47,3 +47,14 @@ python filter.py
 - Matches each pattern category found in the text to a specified Regex Pattern
 - Outputs each match based on the category
 
+## Sample 1 output test
+```bash
+emails: ['hello@novaengine.io', 'emily.clark@neuronet.co.uk', 'hello@novaengine.io', 'emily.clark@neuronet.co.uk']
+urls: ['https://www.novaengine.io', 'https://docs.novaengine.io/guides', 'https://assets.novaengine.io/images/ai-lab.jpg"', 'https://www.novaengine.io,', 'https://docs.novaengine.io/guides', 'https://assets.novaengine.io/images/ai-lab.jpg"']
+phone_numbers: ['(628) 321-7745', '917-645-3322', '404.903.8881', '(628) 321-7745', '917-645-3322', '404.903.8881']
+credit_cards: ['5198 3321 6654 7832', '4012-8866-9981-2245', '5198 3321 6654 7832', '4012-8866-9981-2245']
+currency: ['$24.50', '$3,499.00', '$24.50', '$3,499.00']
+time: ['09:15', '5:45 PM', '09:15', '5:45 PM']
+hashtags: ['#NovaLaunch', '#CodeTheFuture', '#NovaLaunch', '#CodeTheFuture']
+html_tags: ['<p>', '</p>', '<div class="example">', '</div>', '<img src="https://assets.novaengine.io/images/ai-lab.jpg" alt="AI Laboratory Banner">', '<p>', '<div class="example">', '<img src="https://assets.novaengine.io/images/ai-lab.jpg" alt="AI Laboratory Banner">']
+```
