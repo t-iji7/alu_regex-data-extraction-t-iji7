@@ -1,0 +1,24 @@
+towi@gmail.com
+towi.iji@company.co.ng
+https://www.formative.com
+https://subdomain.formative.org/page
+
+(123) 456-7890
+123-456-7890
+123.456.7890
+
+1234 5678 9012 3456
+1234-5678-9012-3456
+
+15:30
+4:30 PM
+
+<p>
+<div class="formative">
+<img src="picture.jpg" alt="100%">
+
+#towi
+#WantsGoodGrades
+
+$20.99
+$6,543.21
