@@ -1,5 +1,5 @@
 # Regex Formative Data Extractor
-This project is a **Python-based utility** that uses **regular expressions (regex)** to extract specified data types from raw text. 
+This project is a **Python-based application** that uses **regular expressions (regex)** to extract specified data types from raw text. 
 ---
 
 ## Project Overview
