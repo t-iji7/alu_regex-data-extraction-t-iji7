@@ -1,7 +1,7 @@
 import re  #imports regex modules for python
 
 #opens and reads file
-with open('sample.txt', 'r') as file:
+with open('sample1.txt', 'r') as file:
     text = file.read()
 
 #checking for regex patterns by group to accomodate various formats
