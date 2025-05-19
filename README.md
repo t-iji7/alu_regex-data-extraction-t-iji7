@@ -29,13 +29,14 @@ your-project/
 --- 
 
 ## Setup Instructions
--Clone the Repository 
+- Clone the Repository 
 ```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 ```
--Create Your Text Sample
--Run the Script
+- Create Your Text Sample
+
+- Run the Script
 ```bash
 python filter.py
 ```
