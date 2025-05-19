@@ -4,7 +4,7 @@ import re  #imports regex modules for python
 with open('sample.txt', 'r') as file:
     text = file.read()
 
-#checking for regex patterns
+#checking for regex patterns by group
 patterns = {
     'emails': r'\b[\w.-]+@[\w.-]+\.\w{2,}\b',
     'urls': r'https?://\S+',
