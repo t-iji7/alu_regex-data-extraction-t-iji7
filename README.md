@@ -6,14 +6,14 @@ This project is a **Python-based application** that uses **regular expressions (
 
 This utility reads a text file (e.g., `sample1.txt`) and scans it using multiple regex patterns to identify and extract:
 
-- 📧 **Email addresses**
-- 📞 **Phone numbers**
-- 🕒 **Time formats** (12-hour & 24-hour) 
-- 🌐 **URLs**  
-- 🔖 **Hashtags**  
-- 💰 **Currency amounts**    
-- 💳 **Credit card numbers**  
-- 🔤 **HTML tags**
+- **Email addresses**
+- **Phone numbers**
+- **Time formats** (12-hour & 24-hour) 
+- **URLs**  
+- **Hashtags**  
+- **Currency amounts**    
+- **Credit card numbers**  
+- **HTML tags**
 
 It supports various valid formats of each pattern (e.g., multiple phone formats, time styles, and card delimiters).
 
