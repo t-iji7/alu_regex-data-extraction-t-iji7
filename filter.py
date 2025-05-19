@@ -1,10 +1,10 @@
 import re  #imports regex modules for python
 
-#opens file and reads
+#opens and reads file
 with open('sample.txt', 'r') as file:
     text = file.read()
 
-#checking for regex patterns by group
+#checking for regex patterns by group to accomodate various formats
 patterns = {
     'emails': r'\b[\w.-]+@[\w.-]+\.\w{2,}\b',
     'urls': r'https?://\S+',
@@ -16,7 +16,7 @@ patterns = {
     'html_tags': r'<[^>]+>',
 }
 
-#storing and printing match results
+#storing and printing matched results by each category
 for pattern_name, pattern in patterns.items():
     matches = re.findall(pattern, text)
     print(f"{pattern_name}: {matches}")
