@@ -6,12 +6,12 @@ with open('sample.txt', 'r') as file:
 
 #checking for regex patterns
 patterns = {
-    'emails': r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b',
+    'emails': r'\b[\w.-]+@[\w.-]+\.\w{2,}\b',
     'urls': r'https?://\S+',
-    'phone_numbers': r'\(\d{3}\) \d{3}-\d{4}',
-    'credit_cards': r'\d{4} \d{4} \d{4} \d{4}',
-    'currency': r'\$\d+\.\d{2}',
-    'time': r'\d{1,2}:\d{2} [AP]M',
+    'phone_numbers': r'(\(\d{3}\)\s?\d{3}-\d{4}|\d{3}[-.]\d{3}[-.]\d{4})',
+    'credit_cards': r'\b(?:\d{4}[- ]?){3}\d{4}\b',
+    'currency': r'\$\d{1,3}(?:,\d{3})*(?:\.\d{2})?',
+    'time': r'\b((?:0?[1-9]|1[0-2]):[0-5]\d\s?(?:AM|PM)|(?:[01]?\d|2[0-3]):[0-5]\d)\b',
     'hashtags': r'#\w+',
     'html_tags': r'<[^>]+>',
 }

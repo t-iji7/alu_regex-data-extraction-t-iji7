@@ -17,8 +17,8 @@ https://subdomain.formative.org/page
 <div class="formative">
 <img src="picture.jpg" alt="100%">
 
-#towiWantsGoodGrade
-#ThisIsAHashtag
+#towi
+#WantsGoodGrades
 
 $20.99
 $6,543.21
